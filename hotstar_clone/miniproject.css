@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+main .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.search {
+    margin-bottom: 2rem;
+}
+
+.search h2 {
+    margin-bottom: 1rem;
+}
+
+.search form {
+    display: grid;
+    gap: 1rem;
+}
+
+.search label {
+    display: block;
+}
+
+.search input[type="text"],
+.search input[type="date"],
+.search input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search button {
+    padding: 0.5rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hotels {
+    margin-top: 2rem;
+}
+
+.hotels .hotel {
+    background: #f4f4f4;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
